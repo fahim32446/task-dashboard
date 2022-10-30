@@ -65,9 +65,9 @@ const User = () => {
                   <td >
 
                     <div className='d-flex flex-column'>
-                      <div style={{ width: '20px' }}>
+                      {/* <div style={{ width: '20px' }}>
                         <button type="button" className="btn btn-success mb-2  btn-sm">Update</button>
-                      </div>
+                      </div> */}
 
                       <div style={{ width: '20px' }}>
                         <button onClick={() => handleClick(item._id)} type="button" className="btn btn-danger  btn-sm">Delete</button>
